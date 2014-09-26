@@ -20,6 +20,8 @@ General tutorials and references on MySQL databases.
 
 	describe <NAME OF TABLE> #Describe the table elements
 
+	select * from table_name #Selects everything from a specific table
+
 	CREATE DATABASE project_name DEFAULT CHARACTER SET utf8 COLLATE utf8_bin; #create a new database for a project and set the character set to utf8 binary
 
 	GRANT ALL PRIVILEGES ON project_name.* TO 'the_user'@'localhost' IDENTIFIED BY 'the_password'; #create and grant access to "my_project" database to the_user with "the_password" only when connected from localhost
