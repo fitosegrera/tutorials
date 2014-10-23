@@ -6,7 +6,7 @@ Due to the lack of support and docummentation from the RFduino developers about 
 ####Steps
 1.Install Wine
 
-	sudo apt-get install wine
+		sudo apt-get install wine
 
 2.Configure Wine in ubuntu: Hit the super key to run the search tool; or launch it from your side bar. Then type "wine" and select "Configure Wine". This will crete a ".wine" hidden folder in your home directory. We will need to deal with it later on.
 
